@@ -59,6 +59,9 @@
     <Compile Include="EntityConfig\PacienteConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ExamesTipoRepository.cs" />
+    <Compile Include="Repositories\PacienteRepository.cs" />
+    <Compile Include="Repositories\RepositoryBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SistemaConsultaExames.Domain\SistemaConsultaExames.Domain.csproj">
@@ -66,9 +69,7 @@
       <Name>SistemaConsultaExames.Domain</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

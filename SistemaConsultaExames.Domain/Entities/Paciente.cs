@@ -9,7 +9,6 @@ namespace SistemaConsultaExames.Domain.Entities
         
         public string Nome { get; set; }
 
-        [RegularExpression(@"([0-9]{3})\.([0-9]{3})\.([0-9]{3})\-([0-9]{2})", ErrorMessage = "CPF não atende ao formato correto XXX.XXX.XXX-YY")]
         public string CPF { get; set; }
 
        
@@ -19,7 +18,7 @@ namespace SistemaConsultaExames.Domain.Entities
 
         public string Telefone  { get; set; }
 
-        [RegularExpression(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$", ErrorMessage = "Digite um e-mail válido")]
+       
         public string Email { get; set; }
 
         public virtual IEnumerable<MarcacaoConsulta> Consultas { get; set; }

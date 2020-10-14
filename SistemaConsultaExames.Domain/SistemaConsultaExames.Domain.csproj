@@ -47,10 +47,14 @@
     <Compile Include="Entities\ExamesTipo.cs" />
     <Compile Include="Entities\MarcacaoConsulta.cs" />
     <Compile Include="Entities\Paciente.cs" />
+    <Compile Include="Interfaces\IExameRepository.cs" />
+    <Compile Include="Interfaces\IExamesTipoRepository.cs" />
+    <Compile Include="Interfaces\IMarcacaoConsultaRepository.cs" />
+    <Compile Include="Interfaces\IPacienteRepository.cs" />
+    <Compile Include="Interfaces\IRepositoryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
