@@ -3,7 +3,8 @@
 namespace SistemaConsultaExames.Domain.Entities
 {
     public class ExamesTipo
-    {
+    {   
+        [Key]
         [Required]
         [MaxLength(100, ErrorMessage = "Campo Nome não pode possuir mais do que 100 caracteres")]
         public string Nome { get; set; }

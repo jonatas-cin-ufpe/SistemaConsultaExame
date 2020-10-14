@@ -53,6 +53,11 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Context\DBContext.cs" />
+    <Compile Include="EntityConfig\ExameConfiguration.cs" />
+    <Compile Include="EntityConfig\ExamesTipoConfiguration.cs" />
+    <Compile Include="EntityConfig\MarcacaoConsultaConfiguration.cs" />
+    <Compile Include="EntityConfig\PacienteConfiguration.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,7 +67,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="EntityConfig\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
